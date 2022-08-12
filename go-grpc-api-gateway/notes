@@ -1,0 +1,35 @@
+看到 Register Route
+
+{  "terminal.integrated.env.osx": {
+  "FIG_NEW_SESSION": "1"
+},
+"[python]": {
+  "editor.defaultFormatter": "ms-python.python"
+},
+"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+"editor.formatOnSave": true,
+"editor.suggestSelection": "first",
+"files.exclude": {
+  "**/.project": true,
+  "**/.settings": true,
+  "**/.classpath": true,
+  "**/.factorypath": true
+},
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"editor.accessibilitySupport": "off",
+"window.zoomLevel": 1,
+  "go.useLanguageServer": true,
+  "[go]": {
+    "editor.snippetSuggestions": "none",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "gopls": {
+    "completeUnimported": true,
+    "usePlaceholders": true // add parameter placeholders when completing a function
+    // "wantCompletionDocumentation": true // for documentation in completion items
+  },
+  "files.eol": "\n" // formatting only supports LF line endings
+}
